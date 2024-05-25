@@ -1,0 +1,58 @@
+SOAL LATIHAN 5 Basic Concept
+
+Buatlah Program yang digunakan untuk Menghitung Luas Dan Keliling Dari
+1. Persegi
+2. Persegi Panjang
+3. Segitiga
+4. Lingkaran
+5. Belah Ketupat
+
+Ketentuan program
+1. Bisa Di Inputkan Pilihan untuk memilih Mode Perhitungan
+2. Inputkan Nilai Sesuai dengan Rumus
+3. Lakukan Proses dan Tampilkan Outputnya
+4. Pilih Ya untuk Mengulangi Perhitungan dan Tidak untuk Keluar Dari program
+
+
+CONTOH PROGRAM
+
+TAMPILAN 1
+PROGRAM MENGHITUNG LUAS DAN KELILING BANGUN DATAR
+By : Nama
+
+Pilihan Bangun Datar
+1. Persegi
+2. Persegi Panjang
+3. Segitiga
+4. Lingkaran
+5. Belah Ketupat
+
+Masukkan pilihan : 
+
+TAMPILAN 2
+Menghitung Luas Dan keliling 
+Masukkan Luas :
+Masukkan keliling : 
+
+Tampilan 3
+Luas Persegi = 10 cm^2
+Kelling Persegi = 5 cm
+
+Apakah Akan Melanjutkan y/n : 
+
+
+STRUKTUR
+
+Bagian 1
+Function untuk menghitung
+
+def luas_keliling_persegi()
+	
+Bagian 2
+Menampilkan Tampilan Aplikasi
+
+Bagian 3
+Memilih Mode Perhitungan dengan IF
+
+if pilihan == 1 :
+	luas_keliling_persegi()
