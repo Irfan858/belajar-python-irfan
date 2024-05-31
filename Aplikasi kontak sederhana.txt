@@ -1,0 +1,52 @@
+Buatlah apliksi sederehana untuk menyimpan nama dalam list
+1. Buatlah list kosong yang akan digunakan untuk menyimpan data
+2. List tersebut dapat di lihat, di tambah, di ubah dan di hapus
+
+Contoh Tampilan
+SELAMAT DATANG DI APLIKASI KONTAK SEDERHANA
+By : Irfan Kurniawan
+
+1. LIHAT KONTAK
+2. TAMBAH KONTAK BARU
+3. UBAH NAMA KONTAK
+4. HAPUS KONTAK
+0. Keluar
+
+Masukkan pilihan anda : 
+
+SCREEN 2
+Lihat Kontak
+0. Irfan
+1. yoga
+
+Apakah anda akan melajutkan(y/n)
+
+SCREEN 3
+Tambah Kontak Baru
+Masukkkan Nama Kontak : 
+
+Berhasil Menambahkan Kontak
+Apakah anda akan melajutkan(y/n)
+
+SCREEN 4
+Ubah Kontak
+Pilihlah nomor kontak yang akan di ubah
+0. Irfan
+1. Yoga
+
+pilihan anda : 
+masukkkan Nama kontak baru :
+
+Berhasil Mengubah Nama kontak
+Apakah anda akan melajutkan(y/n)
+
+SCREEN 5
+Hapus Kontak
+Pilihlah nama kontak yang akan di hapus
+0. Irfan
+1. Yoga
+
+pilihan anda :
+
+Berhasil Menghapus Data
+Apakah anda akan melajutkan(y/n)
