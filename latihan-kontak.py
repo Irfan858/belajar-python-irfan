@@ -15,18 +15,22 @@ def main_screen():
   print("3. Ubah Nama Kontak")
   print("4. Hapus Kontak")
   print("0. Keluar")
-  pilihan  = int(input("Masukkan Pilihan Anda : "))
+  pilihan  = (input("Masukkan Pilihan Anda : "))
   
-  if pilihan == 1:
+  if pilihan == "1":
     lihat_kontak()
-  elif pilihan == 2:
+  elif pilihan == "2":
     tambah_kontak()
-  elif pilihan == 3:
+  elif pilihan == "3":
     edit_kontak()
-  elif pilihan == 4:
+  elif pilihan == "4":
     hapus_kontak()
-  elif pilihan == 0:
+  elif pilihan == "0":
     quit()
+  elif pilihan == "":
+    print("Pilihan Tidak Boleh Kosong")
+    input()
+    exit()
 
 # Exit Option
 def exit():
@@ -47,6 +51,7 @@ def lihat_kontak():
   if list_kontak == [] :
     print("Kontak Anda Kosong")
   else :
+    # Memanggil value dari list_kontak
     for kontak in list_kontak:
       print(str(list_kontak.index(kontak)) + ". " + kontak)
   exit()
@@ -78,6 +83,7 @@ def edit_kontak():
   
   if list_kontak == [] :
     print("Kontak Anda Kosong")
+    exit()
   else :
     for kontak in list_kontak:
       print(str(list_kontak.index(kontak)) + ". " + kontak)
@@ -98,7 +104,7 @@ def edit_kontak():
 # Function Untuk Menghapus Isi Kontak
 def hapus_kontak():
   os.system('cls')
-  print("Ubah Nama Kontak")
+  print("Hapus Nama Kontak")
   print("================================================")
   
   if list_kontak == [] :
